@@ -41,6 +41,6 @@ jobs:
     - name: Create and push manifest images
       uses: Noelware/docker-manifest-action@master
       with:
-        base-image: matthuisman/kodi-headless:${{ github.ref_name }}
-        extra-images: matthuisman/kodi-headless:${{ github.ref_name }}-amd64
+        base-image: coolasice1999/kodi-headless:${{ github.ref_name }}
+        extra-images: coolasice1999/kodi-headless:${{ github.ref_name }}-amd64
         push: true
