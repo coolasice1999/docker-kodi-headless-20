@@ -1,24 +1,10 @@
 <advancedsettings>
     <videodatabase>
-        <host></host>
-        <user></user>
-        <pass></pass>
         <type>mysql</type>
-        <port>3306</port>
+        <host>192.168.5.2</host>
+        <user>kodi</user>
+        <pass>kodi</pass>
     </videodatabase>
-    <musicdatabase>
-        <host></host>
-        <user></user>
-        <pass></pass>
-        <type>mysql</type>
-        <port>3306</port>
-    </musicdatabase>
-    <!-- <pathsubstitution>
-      <substitute>
-        <from>smb://192.168.20.3/pool/</from>
-        <to>/pool/</to>
-      </substitute>
-    </pathsubstitution> -->
     <services>
         <devicename>Kodi-HEADLESS</devicename>
         <esenabled>true</esenabled>
