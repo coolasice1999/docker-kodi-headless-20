@@ -20,6 +20,7 @@ RUN \
 	autopoint \
 	binutils \
 	cmake \
+	cron \
 	curl \
 	default-jre \
 	g++ \
@@ -162,6 +163,7 @@ RUN \
  apt-get install -y \
 	--no-install-recommends \
 	samba-common-bin \
+	cron \
 	libass9 \
 	libbluray2 \
 	libegl1 \
