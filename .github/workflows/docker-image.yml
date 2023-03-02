@@ -1,4 +1,4 @@
-name: coolasice1999/kodi-headless-v20
+name: coolasice1999/kodi-headless-20
 run-name: ${{ github.ref_name }}
 
 on:
@@ -41,6 +41,6 @@ jobs:
     - name: Create and push manifest images
       uses: Noelware/docker-manifest-action@master
       with:
-        base-image: coolasice1999/kodi-headless-v20:${{ github.ref_name }}
-        extra-images: coolasice1999/kodi-headless-v20:${{ github.ref_name }}-amd64
+        base-image: coolasice1999/kodi-headless-20:${{ github.ref_name }}
+        extra-images: coolasice1999/kodi-headless-20:${{ github.ref_name }}-amd64
         push: true
