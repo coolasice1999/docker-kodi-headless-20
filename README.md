@@ -1,4 +1,4 @@
-# matthuisman/kodi-headless
+# matthuisman/kodi-headless with added cron for automated library updates/clean
 A headless install of kodi in a docker container.
 Commonly used with MySQL Kodi setup to allow library updates via web interface.
 
@@ -116,7 +116,7 @@ https://github.com/matthuisman/docker-kodi-headless/issues/30
 + [linuxserver](https://github.com/linuxserver/docker-kodi-headless/) (original headless container)
 
 ## Changelog
-
++ **12.03.23:** Bump Nexus to 20.1
 + **16.01.23:** Bump Nexus to 20.0
 + **25.12.22:** Bump Matrix to 19.5
 + **21.12.22:** Bump Nexus to 20.0rc2
